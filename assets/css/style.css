@@ -42,9 +42,9 @@
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Typography]
-  [ This template has one font typography ]
-    Typography 1: 'Roboto', sans-serif;
-    Typography 2: 'Poppins', sans-serif;
+	[ This template has one font typography ]
+		Typography 1: 'Roboto', sans-serif;
+		Typography 2: 'Poppins', sans-serif;
 -------------------------------------------------------------------*/
 /*************** Import Fonts ***************/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
@@ -205,7 +205,7 @@ button:focus, button:active {
   position: relative;
   border-radius: 3px;
   z-index: 0 !important;
-  background-color: #003192;
+  background-color: #e20000;
   white-space: nowrap;
 }
 
@@ -222,7 +222,7 @@ button:focus, button:active {
 
 .main-btn:hover {
   color: #fff;
-  background-color: #003192;
+  background-color: #e20000;
 }
 
 .main-btn.main-btn-lg {
@@ -735,7 +735,7 @@ select.form-control:focus, select.form-control:valid {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#FFFFFF;
+  background-color:#fff;
 }
 
 .preloader .preloader-wrapper {
@@ -884,7 +884,7 @@ select.form-control:focus, select.form-control:valid {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 15px;
+  padding-top: 1px;
   padding-bottom: 15px;
 }
 
@@ -894,11 +894,10 @@ select.form-control:focus, select.form-control:valid {
   width: 100%;
   z-index: 999999;
   position: fixed;
-  background-color: #FFF;
+  background-color: #e20000;
   top: 0;
   -webkit-box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
           box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
-
 }
 
 .appbar-area.is-sticky .appbar-action-item a {
@@ -1063,7 +1062,7 @@ select.form-control:focus, select.form-control:valid {
 
 .appbar-page-title h3 {
   font-size: 18px;
-  color: #003192;
+  color: #e20000;
   margin-bottom: 0;
   text-align: center;
 }
@@ -1075,21 +1074,25 @@ select.form-control:focus, select.form-control:valid {
   position: relative;
   border-radius: 10px 10px 0 0;
 }
-.body-bgimg{
-background-image: url("../images/log.jpg");
 
+.body-bgimg{
+background-image: url("../images/hero_hp-mobile.png");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.add-card {
+  padding: 30px 15px;
+  background-image: linear-gradient(45deg,#cd2e2e,#342b29);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
+          box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
+  border-radius: 8px;
 }
 
 .body-content-lg {
   margin-top: 125px;
-}
-
-.add-card {
-  padding: 30px 15px;
-  background-color: #fff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
-          box-shadow: 0px 2px 4px 0px rgba(74, 74, 74, 0.05);
-  border-radius: 15px;
 }
 
 .add-card-inner {
@@ -1992,7 +1995,7 @@ footer p a {
 }
 
 footer.footer-bg {
-  background-color: #003192;
+  background-color: #e20000;
 }
 
 footer.footer-bg p {
@@ -2057,7 +2060,7 @@ footer.footer-bg p a {
 }
 
 .navbar-content-item a.active i {
-  color: #003192;
+  color: #e20000;
 }
 
 @-webkit-keyframes fullScale {
@@ -2220,7 +2223,7 @@ footer.footer-bg p a {
 
 .modal-header-title i {
   font-size: 14px;
-  color: #003192;
+  color: #e20000;
 }
 
 .modal-header-title h5 {
@@ -2304,7 +2307,7 @@ footer.footer-bg p a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #003192;
+  background-color: #e20000;
   margin-right: 10px;
   overflow: hidden;
 }
@@ -2330,11 +2333,11 @@ footer.footer-bg p a {
 }
 
 .sidebar-profile-text p a:hover {
-  color: #003192;
+  color: #e20000;
 }
 
 .sidebar-profile-wallet {
-  background-color: #003192;
+  background-color: #e20000;
   padding: 15px;
 }
 
